@@ -17,7 +17,8 @@ body{
     display: flex;
     flex-direction: row;
     position: fixed;
-    /*overflow-x:scroll;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
     max-width: 100%;
 }
 .key{
@@ -26,9 +27,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right:3px;
+    margin:5px;
     transition: all 0.07s;
-    /*overflow-x:scroll;*/
     background-color: rgb(157, 157, 248)
 }
 kbd{
